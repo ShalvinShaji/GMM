@@ -172,7 +172,7 @@ const doctorsList = [
     role: "Chief Physician",
     opTimings: "Monday- Saturday, 6.00 PM- 9.00 PM",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+      "/images/doctors/image.png",
   },
   {
     id: 2,
@@ -218,7 +218,7 @@ const doctorsList = [
     role: "Orthopedic Surgeon",
     opTimings: "Monday, Tuesday, Thursday",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+      "/images/doctors/image.png",
   },
   {
     id: 7,
@@ -237,7 +237,7 @@ const doctorsList = [
     role: "Casualty Medical Officer",
     opTimings: "mon-fri 9am - 5pm",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+      "/images/doctors/image.png",
   },
   {
     id: 9,
@@ -246,7 +246,7 @@ const doctorsList = [
     qualifications: "MBBS",
     role: "Casualty Medical Officer",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+      "/images/doctors/image.png",
   },
   {
     id: 10,
@@ -255,7 +255,7 @@ const doctorsList = [
     qualifications: "MBBS",
     role: "General Practitioner",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+      "/images/doctors/image.png",
   },
 ];
 
