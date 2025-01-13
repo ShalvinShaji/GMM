@@ -9,7 +9,8 @@ export default function Sectionhead(props) {
           <h2>{props.sectionname}</h2>
         </div>
         <p>
-          {props.sectiondescription} <span>{props.sectiondescriptionbold}</span>
+          {props.sectiondescription}&nbsp;
+          <span>{props.sectiondescriptionbold}</span>
         </p>
       </div>
     </>

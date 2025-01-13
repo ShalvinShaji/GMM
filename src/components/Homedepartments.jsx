@@ -31,7 +31,7 @@ export default function Homedepartments({ homedepartments }) {
       <Sectionhead
         sectionname="Departments"
         sectiondescription="Our dedicated"
-        sectiondescriptionbold="services"
+        sectiondescriptionbold="Services"
       />
       <div className="container">
         {homedepartmentsSectionData()}
