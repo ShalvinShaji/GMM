@@ -6,6 +6,9 @@
 
 .gallery-item img {
   cursor: pointer !important;
+  height: 150px !important;
+  width: 100% !important;
+  object-fit: cover !important;
 }
 
 .modal-overlay {
