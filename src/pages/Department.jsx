@@ -116,7 +116,7 @@ export default function Department() {
       <section id="departments" className="departments">
         <Sectionhead
           sectionname="Departments"
-          sectiondescription="Centres Of "
+          sectiondescription="Centres Of"
           sectiondescriptionbold="Excellence"
         />
         <div className="container">{departmentData()}</div>

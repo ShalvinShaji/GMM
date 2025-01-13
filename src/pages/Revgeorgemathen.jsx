@@ -37,7 +37,7 @@ export default function Revgeorgemathen() {
       <section className="Revgeorgemathen" id="Revgeorgemathen">
         <Sectionhead
           sectionname="Rev. George Mathen"
-          sectiondescription="Rev. George "
+          sectiondescription="Rev. George"
           sectiondescriptionbold="Mathen"
         />
         <div className="container">{GeorgeMathanData()}</div>

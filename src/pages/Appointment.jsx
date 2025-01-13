@@ -301,7 +301,7 @@ function Appointment() {
       <section className="appointment" id="appointment">
         <Sectionhead
           sectionname="Appointment"
-          sectiondescription="Make an "
+          sectiondescription="Make an"
           sectiondescriptionbold="Appointment"
         />
         {appointmentData()}
