@@ -5,9 +5,9 @@ export default function Sectionhead(props) {
   return (
     <>
       <div className="container section-title">
-        <div className="title-head">
+        {/* <div className="title-head">
           <h2>{props.sectionname}</h2>
-        </div>
+        </div> */}
         <p>
           {props.sectiondescription}&nbsp;
           <span>{props.sectiondescriptionbold}</span>
