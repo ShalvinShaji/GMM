@@ -56,7 +56,7 @@ const RecentNewsViewer = ({ recentNews }) => {
       <section className="Recent-News">
         <Sectionhead
           sectionname="Recent News"
-          sectiondescription="Our Recent "
+          sectiondescription="Our Recent"
           sectiondescriptionbold="News"
         />
         <div className="container">{homerecentnewsSectionData()}</div>

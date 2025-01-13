@@ -42,7 +42,7 @@ export default function Careers() {
       <section className="Careers" id="Careers">
         <Sectionhead
           sectionname="Careers"
-          sectiondescription="Explore Healthcare "
+          sectiondescription="Explore Healthcare"
           sectiondescriptionbold="Careers"
         />
         <div className="container">{careersData()}</div>
