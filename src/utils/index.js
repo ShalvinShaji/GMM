@@ -111,10 +111,150 @@ const georgeMathenContent = {
   tenth: `The Rev. George Mathen Mission Hospital, Mallappally is a tribute to the stellar contributions of a great man who meant a great deal not only to modern Kerala and Malayalam language but also to Mallappally and its people.`,
 };
 
+const departmentsList = [
+  {
+    departmentId: "general-medicine",
+    name: "General Medicine",
+    bannerImage: "/images/departments/general.png",
+    description:
+      "The department of general medicine deals with the prevention, diagnosis, and treatment of adult diseases. With experienced doctors in the field the department provides the best possible primary care.",
+  },
+  {
+    departmentId: "cardiology",
+    name: "Cardiology",
+    bannerImage: "/images/departments/cardiology.png",
+    description:
+      "The department of cardiology diagonizes and provides treatment for disorders related to heart and cardiovascular system. We provide OPD based care for our patients.",
+  },
+  {
+    departmentId: "pediatrics",
+    name: "Pediatrics",
+    bannerImage: "/images/departments/pediatrics.png",
+    description:
+      "The department provides medical care to infants, children, adolescents, and young adults. We provide outpatient services as well as inpatient service which includes assessments and vaccinations.",
+  },
+  {
+    departmentId: "orthopedics",
+    name: "Orthopedics",
+    bannerImage: "/images/departments/orthopedics.png",
+    description:
+      "Provide medical care for issues related to the musculoskeletal system and treating injuries to bones, joints, ligaments, or tendons. We also have a well-equipped physiotherapy unit.",
+  },
+  {
+    departmentId: "nephrology",
+    name: "Nephrology",
+    bannerImage: "/images/departments/nephrology.png",
+    description:
+      "Provides OPD based medical care for diseases related to the kidney. We also have a dialysis unit providing treatment for kidney failure. ",
+  },
+  {
+    departmentId: "emergency-medicine",
+    name: "Emergency Medicine",
+    bannerImage: "/images/departments/emgmedicine.png",
+    description:
+      "We provide 24*7 emergency care to patients who need immediate care.",
+  },
+  {
+    departmentId: "palliative-care",
+    name: "Palliative Care",
+    bannerImage: "/images/departments/palliativecare.png",
+    description:
+      "Based on a survey of the nearby community GMM has started Home Care Health Mission in 2014. A team of one Doctor, one nurse, one paramedical staff and a counselor visit the houses of bedridden patients and others who cannot normally go to a hospital, and give medical care and support, with the help of a mobile clinic. Serious patients are referred to hospitals for further investigation and treatment.",
+  },
+];
+
+const doctorsList = [
+  {
+    departmentId: "general-medicine",
+    name: "Dr N Damodaran",
+    qualifications: "MBBS, MD",
+    role: "Chief Physician",
+    opTimings: "Monday- Saturday, 6.00 PM- 9.00 PM",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+  },
+  {
+    departmentId: "general-medicine",
+    name: "Dr K. A Chacko",
+    qualifications: "MBBS, FCAMS",
+    role: "Physician",
+    opTimings: "Monday, Wednesday, Friday",
+    image: "/images/doctors/kachacko.png",
+  },
+  {
+    departmentId: "general-medicine",
+    name: "Dr Binoy G Russel",
+    qualifications: "MBBS, FCAMS",
+    role: "Physician",
+    opTimings: "Tuesday, Thursday",
+    image: "/images/doctors/brussel.png",
+  },
+  {
+    departmentId: "cardiology",
+    name: "Dr Philipose John",
+    qualifications: "MBBS, MD, DM",
+    role: "Cardiologist",
+    opTimings: "Saturday, 12.00 PM – 1.00 PM",
+    image: "/images/doctors/pjhon.png",
+  },
+  {
+    departmentId: "pediatrics",
+    name: "Dr Sunnychen Devasia",
+    qualifications: "MBBS, DCH",
+    role: "Pediatrician",
+    opTimings: "Monday- Saturday, 11.30 AM- 1.00 PM",
+    image: "/images/doctors/sunny.png",
+  },
+  {
+    departmentId: "orthopedics",
+    name: "Dr Sanjay Nath",
+    qualifications: "MBBS, MS",
+    role: "Orthopedic Surgeon",
+    opTimings: "Monday, Tuesday, Thursday",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+  },
+  {
+    departmentId: "nephrology",
+    name: "Dr Sneha Anna Joy",
+    qualifications: "MBBS, MD, DM",
+    role: "Consultant Nephrologist",
+    opTimings: "1st & 3rd Saturday, 11.00 AM- 12.00 PM",
+    image: "/images/doctors/sneha.png",
+  },
+  {
+    departmentId: "emergency-medicine",
+    name: "Dr Rohan Chacko Jacob",
+    qualifications: "MBBS",
+    role: "Casualty Medical Officer",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+    opTiming: "mon-fri 9am - 5pm",
+  },
+  {
+    departmentId: "emergency-medicine",
+    name: "Dr Sara Jacob",
+    qualifications: "MBBS",
+    role: "Casualty Medical Officer",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+  },
+  {
+    departmentId: "emergency-medicine",
+    name: "Dr Midhun Raj",
+    qualifications: "MBBS",
+    role: "General Practitioner",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
+  },
+];
+
 export {
   initialNewsData,
   HomedepartmentsData,
   photos,
   aboutData,
   georgeMathenContent,
+  departmentsList,
+  doctorsList,
 };

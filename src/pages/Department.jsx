@@ -3,136 +3,13 @@ import { useLocation } from "react-router-dom";
 import Bcrumbs from "../components/Bcrumbs";
 import Sectionhead from "../components/Sectionhead";
 import "../css/Departments.css";
+import { departmentsList, doctorsList } from "../utils";
 
 export default function Department() {
   const [activeTab, setActiveTab] = useState("general-medicine");
   const [filteredDoctors, setFilteredDoctors] = useState([]);
 
   function departmentData() {
-    const departmentsList = [
-      {
-        departmentId: "general-medicine",
-        name: "General Medicine",
-        bannerImage:
-          "https://gmmhospital.in/assets/img/carousel-images/carousel-bg-1.jpg",
-        description:
-          "The department of general medicine deals with the prevention, diagnosis, and treatment of adult diseases. With experienced doctors in the field, the department provides the best possible primary care.",
-      },
-      {
-        departmentId: "cardiology",
-        name: "Cardiology",
-        bannerImage:
-          "https://gmmhospital.in/assets/img/carousel-images/carousel-bg-1.jpg",
-        description:
-          "The department of cardiology diagnoses and provides treatment for disorders related to the heart and cardiovascular system. We provide OPD based care for our patients.",
-      },
-      {
-        departmentId: "pediatrics",
-        name: "Pediatrics",
-        bannerImage:
-          "https://gmmhospital.in/assets/img/carousel-images/carousel-bg-1.jpg",
-        description:
-          "The department provides medical care to infants, children, adolescents, and young adults. We provide outpatient services as well as inpatient service which includes assessments and vaccinations.",
-      },
-      {
-        departmentId: "orthopedics",
-        name: "Orthopedics",
-        bannerImage:
-          "https://gmmhospital.in/assets/img/carousel-images/carousel-bg-1.jpg",
-        description:
-          "Provide medical care for issues related to the musculoskeletal system and treating injuries to bones, joints, ligaments, or tendons. We also have a well-equipped physiotherapy unit.",
-      },
-      {
-        departmentId: "nephrology",
-        name: "Nephrology",
-        bannerImage:
-          "https://gmmhospital.in/assets/img/carousel-images/carousel-bg-1.jpg",
-        description:
-          "Provides OPD based medical care for diseases related to the kidney. We also have a dialysis unit providing treatment for kidney failure. ",
-      },
-      {
-        departmentId: "emergency-medicine",
-        name: "Emergency Medicine",
-        bannerImage:
-          "https://gmmhospital.in/assets/img/carousel-images/carousel-bg-1.jpg",
-        description:
-          "We provide 24*7 emergency care to patients who need immediate care.",
-      },
-    ];
-
-    const doctorsList = [
-      {
-        departmentId: "general-medicine",
-        name: "Dr N Damodaran",
-        qualifications: "MBBS, MD",
-        role: "Chief Physician",
-        opTimings: "Monday- Saturday, 6.00 PM- 9.00 PM",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-      },
-      {
-        departmentId: "cardiology",
-        name: "Dr Philipose John",
-        qualifications: "MBBS, MD, DM",
-        role: "Cardiologist",
-        opTimings: "Saturday, 12.00 PM – 1.00 PM",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-      },
-      {
-        departmentId: "pediatrics",
-        name: "Dr Sunnychen Devasia",
-        qualifications: "MBBS, DCH",
-        role: "Pediatrician",
-        opTimings: "Monday- Saturday, 11.30 AM- 1.00 PM",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-      },
-      {
-        departmentId: "orthopedics",
-        name: "Dr Varkey S Kulangara",
-        qualifications: "MBBS, MS, DNB, MRCS",
-        role: "Orthopedic Surgeon",
-        opTimings: "Monday, Tuesday, Thursday, 5.30 PM- 8.00 PM",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-      },
-      {
-        departmentId: "nephrology",
-        name: "Dr Sneha Anna Joy",
-        qualifications: "MBBS, MD, DM",
-        role: "Consultant Nephrologist",
-        opTimings: "1st & 3rd Saturday, 11.00 AM- 12.00 PM",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-      },
-      {
-        departmentId: "emergency-medicine",
-        name: "Dr Rohan Chacko Jacob",
-        qualifications: "MBBS",
-        role: "Casualty Medical Officer",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-        opTiming: "mon-fri 9am - 5pm",
-      },
-      {
-        departmentId: "emergency-medicine",
-        name: "Dr Sara Jacob",
-        qualifications: "MBBS",
-        role: "Casualty Medical Officer",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-      },
-      {
-        departmentId: "emergency-medicine",
-        name: "Dr Midhun Raj",
-        qualifications: "MBBS",
-        role: "General Practitioner",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-      },
-    ];
-
     const filterDoctors = (departmentId) => {
       const tempDoctors = doctorsList.filter(
         (doctor) => doctor.departmentId === departmentId
