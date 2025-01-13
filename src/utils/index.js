@@ -342,6 +342,37 @@ const facilitiesList = [
   },
 ];
 
+const careersList = [
+  {
+    id: 1,
+    title: "Consultant General Medicine",
+    bannerImage: "/images/careers/1.png",
+    qualifications: "MBBS, MD in General Medicine",
+    description:
+      "We are seeking a Consultant in General Medicine to join our team. Please send your resume to gmmhospital@gmail.com.",
+    date: "June, 2023",
+  },
+  {
+    id: 2,
+    title: "Staff Nurse",
+    bannerImage: "/images/careers/2.png",
+    qualifications: "B.Sc Nursing or GNM",
+    description:
+      "Looking for compassionate staff nurses to join our healthcare team. Please send your resume to gmmhospital@gmail.com.",
+    date: "July, 2023",
+  },
+  {
+    id: 3,
+    title: "Radiologist",
+    bannerImage:
+      "/images/careers/3.png",
+    qualifications: "MBBS, MD/DNB in Radiology",
+    description:
+      "Seeking a skilled Radiologist to handle diagnostic imaging. Please send your resume to gmmhospital@gmail.com.",
+    date: "August, 2023",
+  },
+];
+
 export {
   initialNewsData,
   HomedepartmentsData,
@@ -351,4 +382,5 @@ export {
   departmentsList,
   doctorsList,
   facilitiesList,
+  careersList,
 };

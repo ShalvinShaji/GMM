@@ -1,5 +1,7 @@
 .careers-section {
   box-shadow: -1px 0px 5px 4px rgba(94, 93, 93, 0.16);
+  height: 400px;
+  padding: 10px;
 }
 
 .careers-section p {
@@ -8,7 +10,7 @@
 
 .careers-banner img {
   max-width: 100%;
-  height: auto;
+  height: 200px;
 }
 
 .careers-title h4 {
