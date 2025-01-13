@@ -31,13 +31,9 @@ const RecentNewsViewer = ({ recentNews }) => {
                 <p className="">{news.title}</p>
               </div>
               <div className="m-0 post-desc">
-                <p>
-                  {showFullTextMap[news.id]
-                    ? news.shortDesc
-                    : `${news.shortDesc.slice(0, 150)}...`}
-                </p>
+                <p>{news.shortDesc}</p>
               </div>
-              <div className="read-more-post-date d-flex justify-content-between align-items-center ">
+              {/* <div className="read-more-post-date d-flex justify-content-between align-items-center ">
                 <div className="news-details">
                   <p className="post-date text-start m-0 ">{news.date}</p>
                 </div>
@@ -47,7 +43,7 @@ const RecentNewsViewer = ({ recentNews }) => {
                 >
                   {showFullTextMap[news.id] ? "Read Less" : "Read More"}
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

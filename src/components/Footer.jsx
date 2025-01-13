@@ -156,6 +156,7 @@ export default function Footer() {
                 <a
                   href="https://www.facebook.com/georgemathen.missionhospital?mibextid=ZbWKwL"
                   className="facebook"
+                  target="_blank"
                 >
                   <FontAwesomeIcon
                     icon={faFacebook}
@@ -165,6 +166,7 @@ export default function Footer() {
                 <a
                   href="https://instagram.com/gmm_hospital?igshid=YmMyMTA2M2Y="
                   className="instagram"
+                  target="_blank"
                 >
                   <FontAwesomeIcon
                     icon={faInstagram}

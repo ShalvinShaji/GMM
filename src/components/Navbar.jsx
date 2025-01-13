@@ -53,7 +53,7 @@ const Navbar = () => {
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
               <li className="nav-item">
                 <Link
-                  to="/Rev-George-Mathen"
+                  to="/reverend-george-mathen"
                   className="dropdown-item"
                   onClick={handleMobileLinkClick}
                 >
@@ -63,7 +63,7 @@ const Navbar = () => {
               <li className="nav-item divider"></li>
               <li className="nav-item">
                 <Link
-                  to="/Vision-Mission"
+                  to="/vision-mission"
                   className="dropdown-item"
                   onClick={handleMobileLinkClick}
                 >
@@ -73,7 +73,7 @@ const Navbar = () => {
               <li className="nav-item divider"></li>
               <li className="nav-item">
                 <Link
-                  to="/Governing-Board"
+                  to="/governing-board"
                   className="dropdown-item"
                   onClick={handleMobileLinkClick}
                 >
@@ -83,32 +83,32 @@ const Navbar = () => {
             </ul>
           </li>
           <li className="nav-item">
-            <Link to="/Departments" onClick={handleMobileLinkClick}>
+            <Link to="/departments" onClick={handleMobileLinkClick}>
               Departments
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Facilities" onClick={handleMobileLinkClick}>
+            <Link to="/facilities" onClick={handleMobileLinkClick}>
               Facilities
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Doctors" onClick={handleMobileLinkClick}>
+            <Link to="/doctors" onClick={handleMobileLinkClick}>
               Doctors
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Careers" onClick={handleMobileLinkClick}>
+            <Link to="/careers" onClick={handleMobileLinkClick}>
               Careers
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Gallery" onClick={handleMobileLinkClick}>
+            <Link to="/gallery" onClick={handleMobileLinkClick}>
               Gallery
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/Contact" onClick={handleMobileLinkClick}>
+            <Link to="/contact" onClick={handleMobileLinkClick}>
               Contact
             </Link>
           </li>
