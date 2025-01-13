@@ -63,7 +63,7 @@ const Navbar = () => {
               <li className="nav-item divider"></li>
               <li className="nav-item">
                 <Link
-                  to="/vision-mission"
+                  to="/our-vision-mission"
                   className="dropdown-item"
                   onClick={handleMobileLinkClick}
                 >

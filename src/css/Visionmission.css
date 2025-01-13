@@ -8,6 +8,10 @@
   font-weight: 600;
 }
 
+.VisionmissionImage {
+  object-fit: cover !important;
+}
+
 @media (min-width: 767px) {
   .VisionmissionImage {
     height: 300px;

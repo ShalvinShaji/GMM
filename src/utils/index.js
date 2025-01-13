@@ -399,6 +399,50 @@ const eventImages = [
   },
 ];
 
+const visionMission = {
+  image: "/images/carousel/carousel1.png",
+  vision:
+    "The Rev. George Mathen Medical Mission seeks to be a centre of healing; witnessing to the abundant life revealed through Jesus Christ Mission.",
+  mission:
+    "The Objective of the Rev. George Matthen Medical Mission Hospital is to provide health care in rural settings including care outside the premises such as providing care at home, community clinics, medical camps and organize educational and counseling program for youth, children and laborers on preventive-health, hygiene, alcoholism, drug abuse, life-style hazards etc; that nurtures health and wholeness of men and women as individuals and communities, with special concern for the disadvantaged, marginalized and the vulnerable.",
+};
+
+const governingBoard = {
+  description: `The administration is vested with the Rev. George Mathen Medical
+                Mission Charitable Society which is headed by the Vicar of the
+                Holy Immanuel CSI Church as the President and the Bishop of the
+                CSI Madhya Kerala Diocese as the Patron. The health ministry of
+                the Holy Immanuel CSI Church, Mallappally is carried out through
+                this society. The society registration number is A 121/77`,
+  members: [
+    {
+      id: 1,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+    {
+      id: 2,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+    {
+      id: 3,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+    {
+      id: 4,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+    {
+      id: 5,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+  ],
+};
+
 export {
   initialNewsData,
   HomedepartmentsData,
@@ -410,4 +454,6 @@ export {
   facilitiesList,
   careersList,
   eventImages,
+  visionMission,
+  governingBoard,
 };
