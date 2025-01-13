@@ -2,35 +2,10 @@ import React from "react";
 import Bcrumbs from "../components/Bcrumbs";
 import Sectionhead from "../components/Sectionhead";
 import "../css/Facilities.css";
+import { facilitiesList } from "../utils";
 
 export default function Facilities() {
   function facilitiesData() {
-    const facilitiesList = [
-      {
-        id: 1,
-        name: "Casualty",
-        image:
-          "https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/medical-logo.jpg",
-      },
-      {
-        id: 2,
-        name: "Casualty",
-        image:
-          "https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/medical-logo.jpg",
-      },
-      {
-        id: 3,
-        name: "Casualty",
-        image:
-          "https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/medical-logo.jpg",
-      },
-      {
-        id: 4,
-        name: "Casualty",
-        image:
-          "https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/medical-logo.jpg",
-      },
-    ];
     return (
       <div className="row">
         {facilitiesList.map((facility) => (

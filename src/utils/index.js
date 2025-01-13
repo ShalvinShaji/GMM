@@ -249,6 +249,156 @@ const doctorsList = [
   },
 ];
 
+const facilitiesList = [
+  {
+    id: 1,
+    name: "Casualty",
+    image: "/images/facilities/casualty.png",
+  },
+  {
+    id: 2,
+    name: "Pharmacy",
+    image: "/images/facilities/pharmacy.png",
+  },
+  {
+    id: 3,
+    name: "Laboratory",
+    image: "/images/facilities/laboratory.png",
+  },
+  {
+    id: 4,
+    name: "X-ray",
+    image: "/images/facilities/xray.png",
+  },
+  {
+    id: 5,
+    name: "OP Consultation",
+    image: "/images/facilities/op.png",
+  },
+  {
+    id: 6,
+    name: "Physiotherapy",
+    image: "/images/facilities/physiotherapy.png",
+  },
+  {
+    id: 7,
+    name: "Dialysis",
+    image: "/images/facilities/dialysis.png",
+  },
+  {
+    id: 8,
+    name: "Minor Operation Theatre",
+    image: "/images/facilities/minor_operation_theatre.png",
+  },
+  {
+    id: 9,
+    name: "Home Visits",
+    image: "/images/facilities/home_visits.png",
+  },
+  {
+    id: 10,
+    name: "Palliative Care",
+    image: "/images/facilities/palliative_care.png",
+  },
+  {
+    id: 11,
+    name: "Ambulance",
+    image: "/images/facilities/ambulance.png",
+  },
+  {
+    id: 12,
+    name: "Reception",
+    image: "/images/facilities/reception.png",
+  },
+  {
+    id: 13,
+    name: "Administrative Office",
+    image: "/images/facilities/administrative_office.png",
+  },
+  {
+    id: 14,
+    name: "General Ward",
+    image: "/images/facilities/general_ward.png",
+  },
+  {
+    id: 15,
+    name: "Private Ward",
+    image: "/images/facilities/private_ward.png",
+  },
+  {
+    id: 16,
+    name: "OP Consultation Rooms",
+    image: "/images/facilities/op_consultation_rooms.png",
+  },
+  {
+    id: 17,
+    name: "Canteen",
+    image: "/images/facilities/canteen.png",
+  },
+  {
+    id: 18,
+    name: "Mortuary",
+    image: "/images/facilities/mortuary.png",
+  },
+];
+
+const careersList = [
+  {
+    id: 1,
+    title: "Consultant General Medicine",
+    bannerImage: "/images/careers/1.png",
+    qualifications: "MBBS, MD in General Medicine",
+    description:
+      "We are seeking a Consultant in General Medicine to join our team. Please send your resume to gmmhospital@gmail.com.",
+    date: "June, 2023",
+  },
+  {
+    id: 2,
+    title: "Staff Nurse",
+    bannerImage: "/images/careers/2.png",
+    qualifications: "B.Sc Nursing or GNM",
+    description:
+      "Looking for compassionate staff nurses to join our healthcare team. Please send your resume to gmmhospital@gmail.com.",
+    date: "July, 2023",
+  },
+  {
+    id: 3,
+    title: "Radiologist",
+    bannerImage: "/images/careers/3.png",
+    qualifications: "MBBS, MD/DNB in Radiology",
+    description:
+      "Seeking a skilled Radiologist to handle diagnostic imaging. Please send your resume to gmmhospital@gmail.com.",
+    date: "August, 2023",
+  },
+];
+
+const eventImages = [
+  {
+    title: "Surgical Camp 2023",
+    images: [
+      "/images/events/surgical_camp/1.png",
+      "/images/events/surgical_camp/2.png",
+      "/images/events/surgical_camp/3.png",
+      "/images/events/surgical_camp/4.png",
+      "/images/events/surgical_camp/5.png",
+      "/images/events/surgical_camp/6.png",
+      "/images/events/surgical_camp/7.png",
+    ],
+  },
+  {
+    title: "Medical camp 2023",
+    images: [
+      "/images/events/medical_camp/1.png",
+      "/images/events/medical_camp/2.png",
+      "/images/events/medical_camp/3.png",
+      "/images/events/medical_camp/4.png",
+      "/images/events/medical_camp/5.png",
+      "/images/events/medical_camp/6.png",
+      "/images/events/medical_camp/7.png",
+    ],
+  },
+];
+
 export {
   initialNewsData,
   HomedepartmentsData,
@@ -257,4 +407,7 @@ export {
   georgeMathenContent,
   departmentsList,
   doctorsList,
+  facilitiesList,
+  careersList,
+  eventImages,
 };

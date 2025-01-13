@@ -2,39 +2,10 @@ import React from "react";
 import Bcrumbs from "../components/Bcrumbs";
 import Sectionhead from "../components/Sectionhead";
 import "../css/Careers.css";
+import { careersList } from "../utils";
 
 export default function Careers() {
   function careersData() {
-    var careersList = [
-      {
-        id: 1,
-        title: "Consultant General Medicine",
-        bannerImage:
-          "https://images.hdqwalls.com/wallpapers/mortal-kombat-mobile-logo-5o.jpg",
-        qualifications: "mbbs",
-        contact:
-          "Please send your resume to gmmhospital@gmail.com Please send your resume to gmmhospital@gmail.com Please send your resume to gmmhospital@gmail.com Please send your resume to gmmhospital@gmail.com",
-        date: "june, 2018",
-      },
-      {
-        id: 2,
-        title: "Consultant General Medicine",
-        bannerImage:
-          "https://images.hdqwalls.com/wallpapers/mortal-kombat-mobile-logo-5o.jpg",
-        qualifications: "mbbs",
-        contact: "Please send your resume to gmmhospital@gmail.com",
-        date: "june, 2018",
-      },
-      {
-        id: 3,
-        title: "Consultant General Medicine",
-        bannerImage:
-          "https://images.hdqwalls.com/wallpapers/mortal-kombat-mobile-logo-5o.jpg",
-        qualifications: "mbbs",
-        contact: "Please send your resume to gmmhospital@gmail.com",
-        date: "june, 2018",
-      },
-    ];
     return (
       <div className="row">
         {careersList.map((career) => (
@@ -44,7 +15,7 @@ export default function Careers() {
                 <img
                   src={career.bannerImage}
                   alt="careers-banner"
-                  className="image-fluid"
+                  className="image-fluid "
                 />
               </div>
               <div className="careers-description p-2">
@@ -53,7 +24,7 @@ export default function Careers() {
                 </div>
 
                 <div className="careers-contact">
-                  <p>{career.contact}</p>
+                  <p>{career.description}</p>
                 </div>
                 <div className="careers-contact">
                   <p className="fst-italic text-end">{career.date}</p>
