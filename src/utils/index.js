@@ -364,12 +364,38 @@ const careersList = [
   {
     id: 3,
     title: "Radiologist",
-    bannerImage:
-      "/images/careers/3.png",
+    bannerImage: "/images/careers/3.png",
     qualifications: "MBBS, MD/DNB in Radiology",
     description:
       "Seeking a skilled Radiologist to handle diagnostic imaging. Please send your resume to gmmhospital@gmail.com.",
     date: "August, 2023",
+  },
+];
+
+const eventImages = [
+  {
+    title: "Surgical Camp 2023",
+    images: [
+      "/images/events/surgical_camp/1.png",
+      "/images/events/surgical_camp/2.png",
+      "/images/events/surgical_camp/3.png",
+      "/images/events/surgical_camp/4.png",
+      "/images/events/surgical_camp/5.png",
+      "/images/events/surgical_camp/6.png",
+      "/images/events/surgical_camp/7.png",
+    ],
+  },
+  {
+    title: "Medical camp 2023",
+    images: [
+      "/images/events/medical_camp/1.png",
+      "/images/events/medical_camp/2.png",
+      "/images/events/medical_camp/3.png",
+      "/images/events/medical_camp/4.png",
+      "/images/events/medical_camp/5.png",
+      "/images/events/medical_camp/6.png",
+      "/images/events/medical_camp/7.png",
+    ],
   },
 ];
 
@@ -383,4 +409,5 @@ export {
   doctorsList,
   facilitiesList,
   careersList,
+  eventImages,
 };

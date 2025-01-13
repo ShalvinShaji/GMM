@@ -3,51 +3,15 @@ import Bcrumbs from "../components/Bcrumbs";
 import "../css/Gallery.css";
 import Sectionhead from "../components/Sectionhead";
 import Modal from "react-modal";
+import { eventImages } from "../utils";
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   function galleryData() {
-    const imageGroups = [
-      {
-        title: "Summer medical camp 2023",
-        images: [
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          // Add more images for this group
-        ],
-      },
-      {
-        title: "Summer medical camp 2023",
-        images: [
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-          "https://images.hdqwalls.com/wallpapers/age-of-wonders-4-2023-50.jpg",
-        ],
-      },
-    ];
     return (
       <div className="row g-5">
-        {imageGroups.map((group, index) => (
+        {eventImages.map((group, index) => (
           <div key={index} className="gallery-item">
             <div className="gallery-item-title">
               <h4>{group.title}</h4>
