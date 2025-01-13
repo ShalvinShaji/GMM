@@ -249,6 +249,99 @@ const doctorsList = [
   },
 ];
 
+const facilitiesList = [
+  {
+    id: 1,
+    name: "Casualty",
+    image: "/images/facilities/casualty.png",
+  },
+  {
+    id: 2,
+    name: "Pharmacy",
+    image: "/images/facilities/pharmacy.png",
+  },
+  {
+    id: 3,
+    name: "Laboratory",
+    image: "/images/facilities/laboratory.png",
+  },
+  {
+    id: 4,
+    name: "X-ray",
+    image: "/images/facilities/xray.png",
+  },
+  {
+    id: 5,
+    name: "OP Consultation",
+    image: "/images/facilities/op.png",
+  },
+  {
+    id: 6,
+    name: "Physiotherapy",
+    image: "/images/facilities/physiotherapy.png",
+  },
+  {
+    id: 7,
+    name: "Dialysis",
+    image: "/images/facilities/dialysis.png",
+  },
+  {
+    id: 8,
+    name: "Minor Operation Theatre",
+    image: "/images/facilities/minor_operation_theatre.png",
+  },
+  {
+    id: 9,
+    name: "Home Visits",
+    image: "/images/facilities/home_visits.png",
+  },
+  {
+    id: 10,
+    name: "Palliative Care",
+    image: "/images/facilities/palliative_care.png",
+  },
+  {
+    id: 11,
+    name: "Ambulance",
+    image: "/images/facilities/ambulance.png",
+  },
+  {
+    id: 12,
+    name: "Reception",
+    image: "/images/facilities/reception.png",
+  },
+  {
+    id: 13,
+    name: "Administrative Office",
+    image: "/images/facilities/administrative_office.png",
+  },
+  {
+    id: 14,
+    name: "General Ward",
+    image: "/images/facilities/general_ward.png",
+  },
+  {
+    id: 15,
+    name: "Private Ward",
+    image: "/images/facilities/private_ward.png",
+  },
+  {
+    id: 16,
+    name: "OP Consultation Rooms",
+    image: "/images/facilities/op_consultation_rooms.png",
+  },
+  {
+    id: 17,
+    name: "Canteen",
+    image: "/images/facilities/canteen.png",
+  },
+  {
+    id: 18,
+    name: "Mortuary",
+    image: "/images/facilities/mortuary.png",
+  },
+];
+
 export {
   initialNewsData,
   HomedepartmentsData,
@@ -257,4 +350,5 @@ export {
   georgeMathenContent,
   departmentsList,
   doctorsList,
+  facilitiesList,
 };
