@@ -165,6 +165,7 @@ const departmentsList = [
 
 const doctorsList = [
   {
+    id: 1,
     departmentId: "general-medicine",
     name: "Dr N Damodaran",
     qualifications: "MBBS, MD",
@@ -174,6 +175,7 @@ const doctorsList = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
   },
   {
+    id: 2,
     departmentId: "general-medicine",
     name: "Dr K. A Chacko",
     qualifications: "MBBS, FCAMS",
@@ -182,6 +184,7 @@ const doctorsList = [
     image: "/images/doctors/kachacko.png",
   },
   {
+    id: 3,
     departmentId: "general-medicine",
     name: "Dr Binoy G Russel",
     qualifications: "MBBS, FCAMS",
@@ -190,6 +193,7 @@ const doctorsList = [
     image: "/images/doctors/brussel.png",
   },
   {
+    id: 4,
     departmentId: "cardiology",
     name: "Dr Philipose John",
     qualifications: "MBBS, MD, DM",
@@ -198,6 +202,7 @@ const doctorsList = [
     image: "/images/doctors/pjhon.png",
   },
   {
+    id: 5,
     departmentId: "pediatrics",
     name: "Dr Sunnychen Devasia",
     qualifications: "MBBS, DCH",
@@ -206,6 +211,7 @@ const doctorsList = [
     image: "/images/doctors/sunny.png",
   },
   {
+    id: 6,
     departmentId: "orthopedics",
     name: "Dr Sanjay Nath",
     qualifications: "MBBS, MS",
@@ -215,6 +221,7 @@ const doctorsList = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
   },
   {
+    id: 7,
     departmentId: "nephrology",
     name: "Dr Sneha Anna Joy",
     qualifications: "MBBS, MD, DM",
@@ -223,15 +230,17 @@ const doctorsList = [
     image: "/images/doctors/sneha.png",
   },
   {
+    id: 8,
     departmentId: "emergency-medicine",
     name: "Dr Rohan Chacko Jacob",
     qualifications: "MBBS",
     role: "Casualty Medical Officer",
+    opTimings: "mon-fri 9am - 5pm",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-    opTiming: "mon-fri 9am - 5pm",
   },
   {
+    id: 9,
     departmentId: "emergency-medicine",
     name: "Dr Sara Jacob",
     qualifications: "MBBS",
@@ -240,6 +249,7 @@ const doctorsList = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
   },
   {
+    id: 10,
     departmentId: "emergency-medicine",
     name: "Dr Midhun Raj",
     qualifications: "MBBS",
