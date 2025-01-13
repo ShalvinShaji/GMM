@@ -165,6 +165,7 @@ const departmentsList = [
 
 const doctorsList = [
   {
+    id: 1,
     departmentId: "general-medicine",
     name: "Dr N Damodaran",
     qualifications: "MBBS, MD",
@@ -174,6 +175,7 @@ const doctorsList = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
   },
   {
+    id: 2,
     departmentId: "general-medicine",
     name: "Dr K. A Chacko",
     qualifications: "MBBS, FCAMS",
@@ -182,6 +184,7 @@ const doctorsList = [
     image: "/images/doctors/kachacko.png",
   },
   {
+    id: 3,
     departmentId: "general-medicine",
     name: "Dr Binoy G Russel",
     qualifications: "MBBS, FCAMS",
@@ -190,6 +193,7 @@ const doctorsList = [
     image: "/images/doctors/brussel.png",
   },
   {
+    id: 4,
     departmentId: "cardiology",
     name: "Dr Philipose John",
     qualifications: "MBBS, MD, DM",
@@ -198,6 +202,7 @@ const doctorsList = [
     image: "/images/doctors/pjhon.png",
   },
   {
+    id: 5,
     departmentId: "pediatrics",
     name: "Dr Sunnychen Devasia",
     qualifications: "MBBS, DCH",
@@ -206,6 +211,7 @@ const doctorsList = [
     image: "/images/doctors/sunny.png",
   },
   {
+    id: 6,
     departmentId: "orthopedics",
     name: "Dr Sanjay Nath",
     qualifications: "MBBS, MS",
@@ -215,6 +221,7 @@ const doctorsList = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
   },
   {
+    id: 7,
     departmentId: "nephrology",
     name: "Dr Sneha Anna Joy",
     qualifications: "MBBS, MD, DM",
@@ -223,15 +230,17 @@ const doctorsList = [
     image: "/images/doctors/sneha.png",
   },
   {
+    id: 8,
     departmentId: "emergency-medicine",
     name: "Dr Rohan Chacko Jacob",
     qualifications: "MBBS",
     role: "Casualty Medical Officer",
+    opTimings: "mon-fri 9am - 5pm",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
-    opTiming: "mon-fri 9am - 5pm",
   },
   {
+    id: 9,
     departmentId: "emergency-medicine",
     name: "Dr Sara Jacob",
     qualifications: "MBBS",
@@ -240,6 +249,7 @@ const doctorsList = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgFoOhqNVXZCBY2xVkGVNBPZsFZigXvho7A&usqp=CAU",
   },
   {
+    id: 10,
     departmentId: "emergency-medicine",
     name: "Dr Midhun Raj",
     qualifications: "MBBS",
@@ -399,6 +409,50 @@ const eventImages = [
   },
 ];
 
+const visionMission = {
+  image: "/images/carousel/carousel1.png",
+  vision:
+    "The Rev. George Mathen Medical Mission seeks to be a centre of healing; witnessing to the abundant life revealed through Jesus Christ Mission.",
+  mission:
+    "The Objective of the Rev. George Matthen Medical Mission Hospital is to provide health care in rural settings including care outside the premises such as providing care at home, community clinics, medical camps and organize educational and counseling program for youth, children and laborers on preventive-health, hygiene, alcoholism, drug abuse, life-style hazards etc; that nurtures health and wholeness of men and women as individuals and communities, with special concern for the disadvantaged, marginalized and the vulnerable.",
+};
+
+const governingBoard = {
+  description: `The administration is vested with the Rev. George Mathen Medical
+                Mission Charitable Society which is headed by the Vicar of the
+                Holy Immanuel CSI Church as the President and the Bishop of the
+                CSI Madhya Kerala Diocese as the Patron. The health ministry of
+                the Holy Immanuel CSI Church, Mallappally is carried out through
+                this society. The society registration number is A 121/77`,
+  members: [
+    {
+      id: 1,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+    {
+      id: 2,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+    {
+      id: 3,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+    {
+      id: 4,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+    {
+      id: 5,
+      position: "Patron",
+      name: "Rt Rev Dr. Malayil Sabu Koshy Cherian",
+    },
+  ],
+};
+
 export {
   initialNewsData,
   HomedepartmentsData,
@@ -410,4 +464,6 @@ export {
   facilitiesList,
   careersList,
   eventImages,
+  visionMission,
+  governingBoard,
 };
