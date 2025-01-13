@@ -19,7 +19,6 @@ import Header from "./components/Header";
 import Scrolltop from "./components/Scrolltop";
 import Chatbot from "./components/Chatbot";
 import Backtotop from "./components/Backtotop";
-import Cta from "./components/Cta";
 
 const App = () => {
   return (
@@ -28,18 +27,17 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Departments" element={<Department />} />
-        <Route path="/Facilities" element={<Facilities />} />
-        <Route path="/Careers" element={<Careers />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/Doctors" element={<Doctors />} />
-        <Route path="/Appointment" element={<Appointment />} />
-        <Route path="/Gallery" element={<Gallery />} />
-        <Route path="/Governing-Board" element={<Governingboard />} />
-        <Route path="/Rev-George-Mathen" element={<Revgeorgemathen />} />
-        <Route path="/Vision-Mission" element={<Visionmission />} />
+        <Route path="/departments" element={<Department />} />
+        <Route path="/facilities" element={<Facilities />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/doctors" element={<Doctors />} />
+        <Route path="/appointment" element={<Appointment />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/governing-board" element={<Governingboard />} />
+        <Route path="/reverend-george-mathen" element={<Revgeorgemathen />} />
+        <Route path="/our-vision-mission" element={<Visionmission />} />
       </Routes>
-      {/* <Cta /> */}
       <Chatbot />
       <Backtotop />
       <Footer />

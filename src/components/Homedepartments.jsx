@@ -14,7 +14,7 @@ export default function Homedepartments({ homedepartments }) {
             className="col-lg-4 col-md-6 d-flex align-items-stretch"
           >
             <div className="icon-box">
-              <div className="departments-img">
+              <div className="departments-img mb-3">
                 <img src={department.imageSrc} alt={department.name} />
               </div>
               <h4 className="text-uppercase">{department.name}</h4>

@@ -6,9 +6,9 @@
   box-shadow: -1px 0px 5px 4px rgba(78, 77, 77, 0.058);
 }
 
-.post-img img {
+/* .post-img img {
   border-radius: 15px 15px 0 0;
-}
+} */
 
 .post-desc {
   text-align: justify;
